@@ -11,6 +11,8 @@ spec:
     enable: false
   values:
     replicaCount: 3
+    ui:
+      message: "Hellloooo all"
     ingress:
       hosts:
         - host: podinfo.azureaksstuff.com
